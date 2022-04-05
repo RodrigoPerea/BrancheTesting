@@ -13,9 +13,4 @@ public class Dog extends Animal {
     return true;
   }
 
-  @Override
-  public boolean eat(String foodType) {
-    return true;
-  }
-
 }

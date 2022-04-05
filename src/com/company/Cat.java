@@ -9,11 +9,6 @@ public class Cat extends Animal {
     System.out.println("Mijaw");
   }
 
-  @Override
-  public boolean eat(String foodType) {
-    return true;
-    System.out.println("MIJAWW");
-  }
 
   @Override
   public boolean eat(String foodType) {
