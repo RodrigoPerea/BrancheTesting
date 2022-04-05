@@ -13,6 +13,8 @@ public class Main {
   dog.eat("Fish");
   cat.eat("raw Meat");
 
+  dog.showMood();
+  cat.showMood();
 
   }
 
