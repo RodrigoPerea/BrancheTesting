@@ -13,9 +13,11 @@ public class Dog extends Animal {
     return true;
   }
 
-  public boolean showMood(){
-    System.out.println("knurrer");
-    return true;
+  @Override
+  public boolean showMood() {
+    return false;
   }
+
+
 
 }

@@ -14,9 +14,13 @@ public class Cat extends Animal {
   public boolean eat(String foodType) {
     return true;
   }
-  public boolean showMood(){
-    System.out.println("hvæser");
+
+  @Override
+  public boolean showMood() {
     return false;
+  }
+
+
 
   }
-}
+
