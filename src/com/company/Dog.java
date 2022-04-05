@@ -1,2 +1,4 @@
-public class Dog {
+package com.company;
+
+public class Dog extends Animal {
 }
