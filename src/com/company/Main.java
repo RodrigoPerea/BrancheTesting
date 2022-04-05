@@ -4,12 +4,14 @@ public class Main {
 
 
     public static void main(String[] args) {
-	Dog dsound= new Dog();
-  Cat csound = new Cat();
+	Dog dog= new Dog();
+  Cat cat = new Cat();
 
-  dsound.makeSound();
-  csound.makeSound();
+  dog.makeSound();
+  cat.makeSound();
 
+  dog.eat("Fish");
+  cat.eat("raw Meat");
 
 
   }
